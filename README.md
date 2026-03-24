@@ -1,91 +1,22 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# AI-Automation-Toolkit
 
-# C extensions
-*.so
+🚀 A powerful Termux-based AI automation toolkit for business workflows, social media automation, and ethical hacking.
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+---
 
-# PyInstaller
-*.manifest
-*.spec
+## 🔥 Features
+- 🤖 Automate social media posting
+- ✍️ AI-powered content generation
+- 🛡 Ethical hacking tools for security testing
+- 📱 Fully compatible with Termux (Android) and Linux
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+---
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py.cover
-.hypothesis/
-.pytest_cache/
-cover/
+## 📦 Installation (Termux)
 
-# Translations
-*.mo
-*.pot
-
-# Django stuff
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-
-# Flask stuff
-instance/
-.webassets-cache
-
-# Scrapy stuff
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-.pybuilder/
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints/
-
-# IDEs and editors
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# Virtual environments
-.env/
-.venv/
-
-# Termux / Android specific
-*.apk
-*.dex
+```bash
+pkg update && pkg upgrade -y
+pkg install git python -y
+git clone https://github.com/mcswazstinghub-ctrl/AI-Automation-Toolkit.git
+cd AI-Automation-Toolkit
+pip install -r requirements.txt
